@@ -314,7 +314,8 @@
       "type": "Gear",
       "quantity": 1,
       "description": "Inherited earring from family",
-      "equipped": true
+      "equipped": false,
+      "attuned": false
     },
     {
       "itemId": "4b823b40-bfc6-43d3-98aa-9d1c96548d8f",
