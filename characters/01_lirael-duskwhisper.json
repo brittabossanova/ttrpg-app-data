@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "owner": "github:brittabossanova",
+    "characterId": "9c206a97-29bb-4847-87e1-280de54c1914",
+    "copiedFrom": null,
+    "system": "dnd5e-2014",
+    "rulesEdition": "2014",
+    "version": 1,
+    "lastUpdated": "2026-06-07T04:30:18.572Z"
+  },
+  "identity": {
+    "name": "Lirael Duskwhisper",
+    "race": "Elf",
+    "raceIndex": "elf",
+    "subrace": "Pallid",
+    "subraceIndex": "elf-pallid",
+    "class": [
+      {
+        "name": "Paladin",
+        "index": "paladin",
+        "source": "PHB",
+        "level": 1,
+        "subclass": null
+      }
+    ],
+    "background": "Inheritor",
+    "backgroundIndex": "inheritor",
+    "backgroundFeature": {
+      "name": "Inheritance",
+      "desc": [
+        "Choose or randomly determine your inheritance from the possibilities in the table below. Work with your Dungeon Master to come up with details: Why is your inheritance so important, and what is its full story? You might prefer for the DM to invent these details as part of the game, allowing you to learn more about your inheritance as your character does. The Dungeon Master is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item's history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met. When you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you."
+      ]
+    },
+    "alignment": "Chaotic Good",
+    "xp": 0,
+    "portrait": null,
+    "size": "Medium",
+    "languages": [
+      "common",
+      "elvish"
+    ],
+    "racialOptions": {},
+    "racialTraits": [
+      {
+        "index": "age",
+        "name": "Age",
+        "source": "PHB"
+      },
+      {
+        "index": "size",
+        "name": "Size",
+        "source": "PHB"
+      },
+      {
+        "index": "darkvision",
+        "name": "Darkvision",
+        "source": "PHB"
+      },
+      {
+        "index": "keen-senses",
+        "name": "Keen Senses",
+        "source": "PHB"
+      },
+      {
+        "index": "fey-ancestry",
+        "name": "Fey Ancestry",
+        "source": "PHB"
+      },
+      {
+        "index": "trance",
+        "name": "Trance",
+        "source": "PHB"
+      },
+      {
+        "index": "languages",
+        "name": "Languages",
+        "source": "PHB"
+      },
+      {
+        "index": "incisive-sense",
+        "name": "Incisive Sense",
+        "source": "EGW"
+      },
+      {
+        "index": "blessing-of-the-moon-weaver",
+        "name": "Blessing of the Moon Weaver",
+        "source": "EGW"
+      }
+    ]
+  },
+  "stats": {
+    "abilityScores": {
+      "str": 11,
+      "dex": 18,
+      "con": 13,
+      "int": 12,
+      "wis": 17,
+      "cha": 9
+    },
+    "savingThrows": {
+      "wis": {
+        "proficient": true
+      },
+      "cha": {
+        "proficient": true
+      }
+    },
+    "skills": {
+      "athletics": {
+        "proficient": true
+      },
+      "insight": {
+        "proficient": true
+      },
+      "survival": {
+        "proficient": true
+      },
+      "perception": {
+        "proficient": true
+      }
+    },
+    "proficiencies": {
+      "Armour": [
+        "light armor proficiency",
+        "medium armor proficiency",
+        "heavy armor proficiency",
+        "shield armor proficiency"
+      ],
+      "Weapons": [
+        "simple weapon proficiency",
+        "martial weapon proficiency"
+      ],
+      "Tools": [
+        "musical instrument"
+      ],
+      "Languages": [
+        "common",
+        "elvish"
+      ]
+    },
+    "damageResistances": []
+  },
+  "combat": {
+    "hpMax": 11,
+    "hpCurrent": 11,
+    "hpTemp": 0,
+    "ac": 18,
+    "initiative": 0,
+    "speed": 30,
+    "deathSaves": {
+      "successes": 0,
+      "failures": 0
+    },
+    "conditions": []
+  },
+  "inventory": [
+    {
+      "itemId": "2027d570-2b27-4a9c-a05d-01732b895370",
+      "equipped": true,
+      "index": "chain-mail",
+      "name": "Chain Mail",
+      "source": "PHB",
+      "quantity": 1,
+      "equipment_category": {
+        "index": "heavy-armor",
+        "name": "Heavy Armor"
+      },
+      "equipment_category_index": "heavy-armor",
+      "armor_class": {
+        "base": 16,
+        "dex_bonus": false
+      },
+      "armor_category": "Heavy",
+      "weight": 55,
+      "description": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
+    },
+    {
+      "itemId": "a0a30a41-c3ac-4c11-add8-46013d789273",
+      "equipped": false,
+      "index": "holy-symbol-generic",
+      "name": "Holy Symbol",
+      "source": "PHB",
+      "quantity": 1,
+      "custom": true,
+      "equipment_category": {
+        "index": "spellcasting-focus",
+        "name": "Spellcasting Focus"
+      },
+      "equipment_category_index": "spellcasting-focus",
+      "scfType": "holy",
+      "description": "Generic holy symbol placeholder. Players can rename or edit this item in inventory.",
+      "groupIndex": 3,
+      "choiceId": "3_0"
+    },
+    {
+      "itemId": "f3f458ec-f463-4fa9-9e3e-5ab08bfc6817",
+      "equipped": true,
+      "index": "shield",
+      "name": "Shield",
+      "source": "PHB",
+      "quantity": 1,
+      "equipment_category": {
+        "index": "shield",
+        "name": "Shield"
+      },
+      "equipment_category_index": "shield",
+      "armor_class": {
+        "base": 2,
+        "dex_bonus": true
+      },
+      "armor_category": "Shield",
+      "weight": 6,
+      "description": "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+    },
+    {
+      "itemId": "73b9ceaf-9cdf-4cc0-a664-5bff4f146578",
+      "equipped": true,
+      "index": "longsword",
+      "name": "Longsword",
+      "source": "PHB",
+      "quantity": 1,
+      "equipment_category": {
+        "index": "melee-weapon",
+        "name": "Melee Weapon"
+      },
+      "equipment_category_index": "melee-weapon",
+      "weapon_category": "Martial",
+      "weapon_range": "Melee",
+      "properties": [
+        "Versatile"
+      ],
+      "weight": 3,
+      "damage": {
+        "dice": "1d8",
+        "type": "slashing",
+        "versatile": "1d10"
+      },
+      "description": ""
+    },
+    {
+      "itemId": "535d05b1-60a6-4ad3-a431-318ef7b530a1",
+      "equipped": true,
+      "index": "dagger",
+      "name": "Dagger",
+      "source": "PHB",
+      "quantity": 1,
+      "equipment_category": {
+        "index": "melee-weapon",
+        "name": "Melee Weapon"
+      },
+      "equipment_category_index": "melee-weapon",
+      "weapon_category": "Simple",
+      "weapon_range": "Melee",
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown"
+      ],
+      "weight": 1,
+      "damage": {
+        "dice": "1d4",
+        "type": "piercing"
+      },
+      "description": ""
+    },
+    {
+      "itemId": "a88385c6-b93c-4811-8de5-ff82564b8842",
+      "equipped": false,
+      "index": "priests-pack",
+      "name": "priest's pack",
+      "quantity": 1,
+      "groupIndex": 2,
+      "choiceId": "2_0"
+    },
+    {
+      "itemId": "2a6ea023-22f6-41a9-9b10-48de79f1db7a",
+      "equipped": false,
+      "index": "your-inheritance",
+      "name": "Your inheritance",
+      "quantity": 1,
+      "custom": true,
+      "groupIndex": 0,
+      "choiceId": "0_0"
+    },
+    {
+      "itemId": "4b823b40-bfc6-43d3-98aa-9d1c96548d8f",
+      "equipped": false,
+      "index": "travelers-clothes",
+      "name": "traveler's clothes",
+      "source": "PHB",
+      "quantity": 1,
+      "groupIndex": 0,
+      "choiceId": "0_0"
+    },
+    {
+      "itemId": "b0708186-cb42-461c-8d1f-48e4e286bee0",
+      "equipped": false,
+      "index": "pouch",
+      "name": "pouch",
+      "source": "PHB",
+      "quantity": 1,
+      "containsValue": 1500,
+      "groupIndex": 0,
+      "choiceId": "0_0"
+    },
+    {
+      "itemId": "fc530c44-47a8-4ac6-85f2-71fc7c1933e5",
+      "equipped": false,
+      "index": "horn",
+      "name": "Horn",
+      "source": "PHB",
+      "quantity": 1,
+      "equipment_category": {
+        "index": "instrument",
+        "name": "Instrument"
+      },
+      "equipment_category_index": "instrument",
+      "weight": 2,
+      "description": ""
+    }
+  ],
+  "feats": [],
+  "racialTraits": [
+    {
+      "index": "age",
+      "name": "Age",
+      "source": "PHB"
+    },
+    {
+      "index": "size",
+      "name": "Size",
+      "source": "PHB"
+    },
+    {
+      "index": "darkvision",
+      "name": "Darkvision",
+      "source": "PHB"
+    },
+    {
+      "index": "keen-senses",
+      "name": "Keen Senses",
+      "source": "PHB"
+    },
+    {
+      "index": "fey-ancestry",
+      "name": "Fey Ancestry",
+      "source": "PHB"
+    },
+    {
+      "index": "trance",
+      "name": "Trance",
+      "source": "PHB"
+    },
+    {
+      "index": "languages",
+      "name": "Languages",
+      "source": "PHB"
+    },
+    {
+      "index": "incisive-sense",
+      "name": "Incisive Sense",
+      "source": "EGW"
+    },
+    {
+      "index": "blessing-of-the-moon-weaver",
+      "name": "Blessing of the Moon Weaver",
+      "source": "EGW"
+    }
+  ],
+  "spells": {
+    "spellcastingAbility": "cha",
+    "slots": {},
+    "pactSlots": {},
+    "known": [],
+    "prepared": [],
+    "concentration": null
+  },
+  "customContent": {
+    "classFeatures": [
+      {
+        "index": "paladin-1-divine-sense",
+        "name": "Divine Sense",
+        "source": "PHB",
+        "desc": [
+          "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind Cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+        ],
+        "classIndex": "paladin",
+        "className": "Paladin",
+        "gainedAtLevel": 1
+      },
+      {
+        "index": "paladin-1-lay-on-hands",
+        "name": "Lay on Hands",
+        "source": "PHB",
+        "desc": [
+          "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level × 5. As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool. Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one. This feature has no effect on undead and constructs."
+        ],
+        "classIndex": "paladin",
+        "className": "Paladin",
+        "gainedAtLevel": 1
+      }
+    ],
+    "classFeatureChoices": [],
+    "backgroundFeature": {
+      "name": "Inheritance",
+      "desc": [
+        "Choose or randomly determine your inheritance from the possibilities in the table below. Work with your Dungeon Master to come up with details: Why is your inheritance so important, and what is its full story? You might prefer for the DM to invent these details as part of the game, allowing you to learn more about your inheritance as your character does. The Dungeon Master is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item's history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met. When you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you."
+      ]
+    }
+  },
+  "notes": {
+    "personalityTraits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": "",
+    "appearance": "",
+    "backstory": "",
+    "alliesAndOrganisations": "",
+    "general": ""
+  },
+  "settings": {
+    "rulesEdition": "2014",
+    "encumbranceMode": "disabled",
+    "attunementLimit": 3,
+    "spellComponents": "all",
+    "concentrationMode": "raw",
+    "cantripScaling": "character",
+    "hitDiceRecovery": "all",
+    "longRestHpRecovery": "full",
+    "longRestDuration": "8h",
+    "shortRestDuration": "1h",
+    "shortRestsPerLongRest": 2,
+    "levellingSystem": "xp",
+    "multiclassing": "enabled",
+    "encumbranceTracking": false,
+    "milestoneMode": false
+  }
+}
