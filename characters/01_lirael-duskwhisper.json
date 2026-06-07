@@ -33,7 +33,7 @@
     },
     "alignment": "Chaotic Good",
     "xp": 0,
-    "portrait": "https://raw.githubusercontent.com/brittabossanova/ttrpg-app-data/main/characters/01-lirael-duskwhisper-images/1780807037235-img-4666.jpeg?v=1780807037235",
+    "portrait": "https://raw.githubusercontent.com/brittabossanova/ttrpg-app-data/main/characters/01-lirael-duskwhisper-images/1780807072963-img-4666.jpeg?v=1780807072963",
     "size": "Medium",
     "languages": [
       "common",
@@ -88,6 +88,15 @@
       }
     ],
     "images": [
+      {
+        "id": "1780807072963",
+        "name": "IMG_4666.jpeg",
+        "path": "characters/01-lirael-duskwhisper-images/1780807072963-img-4666.jpeg",
+        "url": "https://raw.githubusercontent.com/brittabossanova/ttrpg-app-data/main/characters/01-lirael-duskwhisper-images/1780807072963-img-4666.jpeg?v=1780807072963",
+        "type": "image/jpeg",
+        "size": 285437,
+        "uploadedAt": "2026-06-07T04:37:52.963Z"
+      },
       {
         "id": "1780807037235",
         "name": "IMG_4666.jpeg",
